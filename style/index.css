@@ -95,7 +95,7 @@ header nav {
 
 header img {
     width: 60%;
-    margin-left: 20%;
+    margin-left: 0 auto;
 }
 
 .projects {
@@ -162,6 +162,11 @@ footer button {
         margin-left: 28%;
     }
 
+    header img {
+        width: 60%;
+        margin: 0 auto;
+    }
+
     .first, .second, .third, .fourth, .fifth, .sixth {
         width: 40%;
     }
@@ -177,6 +182,11 @@ footer button {
 @media (max-width: 500px) {
     .first, .second, .third, .fourth, .fifth, .sixth {
         width: 60%;
+    }
+
+    header img {
+        width: 60%;
+        margin: 0 auto;
     }
 
 }
