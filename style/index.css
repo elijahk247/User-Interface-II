@@ -61,7 +61,7 @@ header {
     display: flex;
     flex-direction: row;
     /*border: solid 1px grey; */
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
     margin-bottom: 5%;
 }
@@ -71,9 +71,12 @@ header h1 {
     width: 40%;
 }
 
+header nav {
+    font-size: 1.6rem;
+}
+
 header nav a {
     text-decoration: none;
-    font-size: 1.6rem;
 
     border: 1px solid black;
     padding: 2%;
@@ -144,5 +147,37 @@ footer button {
 
 
 
+@media (max-width: 800px) {
+    header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
 
+    h1 {
+        margin-left: 40%;
+    }
+
+    header nav {
+        margin-left: 28%;
+    }
+
+    .first, .second, .third, .fourth, .fifth, .sixth {
+        width: 40%;
+    }
+
+    .projects img {
+        width: 80%;
+        height: 80%;
+        /*border: 5px solid grey; */
+    }
+
+}
+
+@media (max-width: 500px) {
+    .first, .second, .third, .fourth, .fifth, .sixth {
+        width: 60%;
+    }
+
+}
 
